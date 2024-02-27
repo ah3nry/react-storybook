@@ -6,7 +6,7 @@ const PasswordInput = ({ label = 'Password', placeholder = "Enter your password"
   const [showPassword, setShowPassword] = useState(false);
   const [isDirty, setIsDirty] = useState(false);
   const [hasFocus, setHasFocus] = useState(false);
-  const [isValid, setIsValid] = useState(null);
+  const [isValid, setIsValid] = useState(false);
   const validationText = 'Validation text';
 
   const handleBlur = (event) => {
@@ -116,6 +116,7 @@ const PasswordInput = ({ label = 'Password', placeholder = "Enter your password"
           ${isValid ? styles.valid : styles.invalid}
           `}
         ariaHidden={`${isDirty ? 'false' : 'true'}`}
+        aria-live="assertive"
       >
         {showInvalid && (
           <>

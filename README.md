@@ -5,13 +5,13 @@ In the project directory, you can run:
 
 ### `npm storybook`
 
-Runs Storybook.\
+Runs Storybook.
 Open [http://localhost:6006/](http://localhost:6006/) to view it in your browser.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-Uses Jest and React Testing Library.\
+Launches the test runner in the interactive watch mode.
+Uses Jest and React Testing Library.
 
 ### `npm run lint`
 
@@ -23,7 +23,7 @@ Formats code using Prettier.
 
 ### `npm run build-storybook`
 
-Builds the storybook for production to the `storybook-static` folder.\
+Builds the storybook for production to the `storybook-static` folder.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,3 +1,4 @@
+import { userEvent, within } from '@storybook/testing-library';
 import PasswordInput from './PasswordInput';
 
 export default {
@@ -16,9 +17,12 @@ export const Default = {
   },
 };
 
-export const Focus = () => (
-  <PasswordInput label="Password" placeholder="Enter your password" />
-);
-Focus.parameters = { pseudo: { focus: true } };
-
-// export const Focus
+export const Focus = {
+    play: async ({ canvasElement }) => {
+        const canvas = within(canvasElement);
+        const passwordInput = canvas.getByLabelText('Password', {
+            selector: 'input',
+          });
+          await userEvent.click(passwordInput);
+    }
+};

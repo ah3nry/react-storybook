@@ -1,6 +1,9 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
+import { axe, toHaveNoViolations } from 'jest-axe';
 import PasswordInput from './PasswordInput';
+
+expect.extend(toHaveNoViolations);
 
 describe('PasswordInput component', () => {
   it('renders correctly with default props', () => {
@@ -24,5 +27,10 @@ describe('PasswordInput component', () => {
     fireEvent.click(toggleButton);
 
     expect(passwordInput).toHaveAttribute('type', 'password');
+  });
+
+  it('renders with no AXE violations', async () => {
+    const { container } = render(<PasswordInput />);
+    expect(await axe(container)).toHaveNoViolations();
   });
 });

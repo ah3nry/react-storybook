@@ -10,6 +10,7 @@ const config = {
     "storybook-addon-pseudo-states",
     "@storybook/addon-a11y",
     "@storybook/addon-interactions",
+    "@storybook/addon-controls"
   ],
   framework: {
     name: "@storybook/react-webpack5",
