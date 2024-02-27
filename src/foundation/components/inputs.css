@@ -1,20 +1,20 @@
 @import url(../styles/base.css);
 
 :root {
-    --m-form-control-font-family: var(--m-typescale-body-font-family-name);
-    --m-form-control-font-weight: var(--m-typescale-body-font-weight);
+  --m-form-control-font-family: var(--m-typescale-body-font-family-name);
+  --m-form-control-font-weight: var(--m-typescale-body-font-weight);
 
-    --input-label-color: var(--m-label-color);
-    --input-label-margin-bottom: var(--m-spacing-2);
-    --input-border-color: var(--m-grey);
-    --input-error-color: var(--m-error-color);
-    --input-success-color: var(--m-success-color);
-    --input-placeholder-color: var(--m-midgrey);
-    --input-background-color: var(--m-white);
-    --input-border: 1px solid var(--input-border-color);
-    --input-border-radius: 4px;
-    --input-control-padding: 0 var(--m-spacing-3);
-    --input-control-color: var(--m-black);
-    
-    --input-focus-ring: 0 0 0 2px var(--m-white), 0 0 0 4px var(--m-focus-color);
+  --input-label-color: var(--m-label-color);
+  --input-label-margin-bottom: var(--m-spacing-2);
+  --input-border-color: var(--m-grey);
+  --input-error-color: var(--m-error-color);
+  --input-success-color: var(--m-success-color);
+  --input-placeholder-color: var(--m-midgrey);
+  --input-background-color: var(--m-white);
+  --input-border: 1px solid var(--input-border-color);
+  --input-border-radius: 4px;
+  --input-control-padding: 0 var(--m-spacing-3);
+  --input-control-color: var(--m-black);
+
+  --input-focus-ring: 0 0 0 2px var(--m-white), 0 0 0 4px var(--m-focus-color);
 }

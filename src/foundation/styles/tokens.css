@@ -1,31 +1,39 @@
 @import url(../font/font.css);
 
 :root {
-    --m-black: #141413;
-    --m-white: #ffffff;
-    --m-grey: #555250;
-    --m-midgrey: #777470;
-    --m-red: #ee0000;
-    --m-redorange: #ff4500;
-    --m-green: #038A00;
+  --m-black: #141413;
+  --m-white: #ffffff;
+  --m-grey: #555250;
+  --m-midgrey: #777470;
+  --m-red: #ee0000;
+  --m-redorange: #ff4500;
+  --m-green: #038a00;
 
-    /* Typography */
-    --m-typescale-body-font-family-name: Montserrat;
-    --m-typescale-body-font-family-style: Regular;
+  /* Typography */
+  --m-typescale-body-font-family-name: Montserrat;
+  --m-typescale-body-font-family-style: Regular;
 
-    /* Display small */
-    --m-typescale-body-small-font-family-name: var(--m-typescale-body-family-name);
-    --m-typescale-body-small-font-family-style: var(--m-typescale-body-font-family-style);
-    --m-typescale-body-small-font-weight: 400;
-    --m-typescale-body-small-font-size: 12px;
-    --m-typescale-body-small-line-height: 1;
-    --m-typescale-body-small-letter-spacing: 0px;
+  /* Display small */
+  --m-typescale-body-small-font-family-name: var(
+    --m-typescale-body-family-name
+  );
+  --m-typescale-body-small-font-family-style: var(
+    --m-typescale-body-font-family-style
+  );
+  --m-typescale-body-small-font-weight: 400;
+  --m-typescale-body-small-font-size: 12px;
+  --m-typescale-body-small-line-height: 1;
+  --m-typescale-body-small-letter-spacing: 0px;
 
-    /* Display medium */
-    --m-typescale-body-medium-font-family-name: var(--m-typescale-body-family-name);;
-    --m-typescale-body-medium-font-family-style: var(--m-typescale-body-font-family-style);
-    --m-typescale-body-medium-font-weight: 400;
-    --m-typescale-body-medium-font-size: 16px;
-    --m-typescale-body-medium-line-height: 1.5;
-    --m-typescale-body-medium-letter-spacing: 0px;
+  /* Display medium */
+  --m-typescale-body-medium-font-family-name: var(
+    --m-typescale-body-family-name
+  );
+  --m-typescale-body-medium-font-family-style: var(
+    --m-typescale-body-font-family-style
+  );
+  --m-typescale-body-medium-font-weight: 400;
+  --m-typescale-body-medium-font-size: 16px;
+  --m-typescale-body-medium-line-height: 1.5;
+  --m-typescale-body-medium-letter-spacing: 0px;
 }
