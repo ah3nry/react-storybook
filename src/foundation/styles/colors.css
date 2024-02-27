@@ -2,4 +2,5 @@
   --m-focus-color: var(--m-redorange);
   --m-error-color: var(--m-red);
   --m-success-color: var(--m-green);
+  --m-label-color: var(--m-black);
 }

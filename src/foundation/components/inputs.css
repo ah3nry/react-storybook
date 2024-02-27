@@ -2,7 +2,7 @@
 
 :root {
   --m-form-control-font-family: var(--m-typescale-body-font-family-name);
-  --m-form-control-font-weight: var(--m-typescale-body-font-weight);
+  --m-form-control-font-style: var(--m-typescale-body-font-family-style);
 
   --input-width: 274px;
   --input-height: 40px;
