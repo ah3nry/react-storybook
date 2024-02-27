@@ -9,23 +9,24 @@ describe('PasswordInput component', () => {
   it('renders correctly with default props', () => {
     render(<PasswordInput />);
     expect(screen.getByLabelText('Password')).toBeInTheDocument();
-    expect(screen.getByPlaceholderText('Enter your password')).toBeInTheDocument();
+    expect(
+      screen.getByPlaceholderText('Enter your password')
+    ).toBeInTheDocument();
   });
 
   it('toggles password visibility when the button is clicked', () => {
     render(<PasswordInput label="Password" />);
-    const toggleButton = screen.getByRole('button', { name: 'Show password' });
+    const toggleButton = screen.getByRole('button', {
+      name: 'Show password',
+    });
 
     const passwordInput = screen.getByLabelText('Password');
-
     expect(passwordInput).toHaveAttribute('type', 'password');
 
     fireEvent.click(toggleButton);
-
     expect(passwordInput).toHaveAttribute('type', 'text');
 
     fireEvent.click(toggleButton);
-
     expect(passwordInput).toHaveAttribute('type', 'password');
   });
 
@@ -33,4 +34,6 @@ describe('PasswordInput component', () => {
     const { container } = render(<PasswordInput />);
     expect(await axe(container)).toHaveNoViolations();
   });
+
+  // More tests here.
 });

@@ -18,11 +18,11 @@ export const Default = {
 };
 
 export const Focus = {
-    play: async ({ canvasElement }) => {
-        const canvas = within(canvasElement);
-        const passwordInput = canvas.getByLabelText('Password', {
-            selector: 'input',
-          });
-          await userEvent.click(passwordInput);
-    }
+  play: async ({ canvasElement }) => {
+    const canvas = within(canvasElement);
+    const passwordInput = canvas.getByLabelText('Password', {
+      selector: 'input',
+    });
+    await userEvent.click(passwordInput);
+  },
 };
