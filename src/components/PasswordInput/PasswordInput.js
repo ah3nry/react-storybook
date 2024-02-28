@@ -63,7 +63,7 @@ const PasswordInput = ({
             onClick={handlePasswordToggle}
             aria-label={showPassword ? 'Hide password' : 'Show password'}
           >
-            {showPassword ? <EyeIcon /> : <EyeSlashIcon />}
+            {showPassword ? <EyeSlashIcon /> : <EyeIcon />}
           </button>
         </div>
       </div>
