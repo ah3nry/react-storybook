@@ -20,6 +20,7 @@
     "build-storybook": "storybook build"
   },
   "devDependencies": {
+    "@storybook/addon-a11y": "^7.6.17",
     "@storybook/addon-controls": "^7.6.17",
     "@storybook/addon-essentials": "^7.6.17",
     "@storybook/addon-interactions": "^7.6.17",

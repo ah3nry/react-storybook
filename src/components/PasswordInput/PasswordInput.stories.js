@@ -6,6 +6,7 @@ export default {
   component: PasswordInput,
   parameters: {
     layout: 'centered',
+    a11y: {},
   },
   tags: ['autodocs'],
 };
