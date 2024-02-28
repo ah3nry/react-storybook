@@ -35,6 +35,4 @@ Some basic testing is done using Jest and React Testing Library.
 
 The component is linted using ESLint and formatted using Prettier.
 
-The component is also documented using Storybook and deployed to Vercel.
-
 See the root [README.md](/README.md) for instructions on how to run the project locally, etc.
